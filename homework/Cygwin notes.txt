@@ -1,0 +1,36 @@
+CYGWIN Notes:
+Math 5610
+
+Emily Blackburn
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+cd /cygdrive/c/Users/labuser/Desktop/  -  change directory to /cygdrive/c/Users/labuser/Desktop/
+
+
+ls - list current files
+
+
+mkdir name  - make directory(folder) with name: name
+rmdir name  - delete directory(folder) with name: name
+
+
+cp /cygdrive/c/Users/labuser/Desktop/hello-c-world.c .   /  cp *.cc ~   
+    - copy file /cygdrive/c/Users/labuser/Desktop/hello-c-world.c to current directory  /  copy files ending in .cc to "home" directory
+
+mv fileA folderB  - move fileA to FolderB
+
+gcc file.cc   -creates executable a.exe file.
+
+
+=====================================
+
+more  file.cc  - shows the code
+vim file.cc  - brings up window to edit code
+	press ESC then 
+		:w to write/save
+		:q to quit 
+	then press enter
+
+
+./a.exe  - run executable code.
