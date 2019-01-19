@@ -1,4 +1,8 @@
-### Completed Homework Tasks:
+# math5610
+Math 5610 Fundamentals of Computational Mathematics Homework
 
-1. [task Single Machine Precision] (https://EmilyBlackb.github.io/math5610/homework/single_precision.cc)
-2. [task Double Machine Precision] (https://EmilyBlackb.github.io/math5610/homework/double_precision.cc)
+
+### Completed Homework:
+
+1. [Homework 1](https://EmilyBlackb.github.io/math5610/homework/1)
+2. [Homework 2](https://EmilyBlackb.github.io/math5610/homework/2)
