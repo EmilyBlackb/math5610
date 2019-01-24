@@ -1,4 +1,12 @@
-### Completed Homework Tasks:
+### Homework 1 Tasks:
 
-1. [task: Single Machine Precision](https://EmilyBlackb.github.io/math5610/homework/single_precision.cc)
-2. [task: Double Machine Precision](https://EmilyBlackb.github.io/math5610/homework/double_precision.cc)
+1. [ ] [Machine Precision]()
+2. [ ] [Creating GitHub Repository]()
+3. [ ] [Github Pages Repository]()
+4. [ ] [Software Manual Template]()
+5. [ ] [Table of Contents]()
+6. [ ] [Shared Library]()
+7. [ ] [Computer Processes using OpenMP]()
+8. [ ] [Analysis of Disaster articles]()
+9. [ ] [Random Matrix Generator]()
+10. [ ] [Online Linear Packages Discussion]()
