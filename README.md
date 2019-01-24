@@ -9,4 +9,4 @@ Math 5610 Fundamentals of Computational Mathematics Homework
 
 ### Software Manual:
 
-[Software Manual]()
+[Software Manual](Software_Manual/README.md)
