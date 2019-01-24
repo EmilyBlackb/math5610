@@ -10,5 +10,5 @@
 8. [2-Norm]()
 9. [1-Norm]()
 10. [infinity-Norm]()
-11. [Random Symmetric Matrix]
+11. [Random Symmetric Matrix]()
 
