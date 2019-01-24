@@ -1,6 +1,6 @@
 ### Homework 1 Tasks:
 
-1. [ ] [Machine Precision]()
+1. [ ] [Machine Precision](1-MachinePrecision.md)
 2. [ ] [Creating GitHub Repository]()
 3. [ ] [Github Pages Repository]()
 4. [ ] [Software Manual Template]()
