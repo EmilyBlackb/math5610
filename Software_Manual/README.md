@@ -1,7 +1,7 @@
 ### Table of Contents
 
-1. [Machine Single Precision](MachineErrorSinglePrecision)
-2. [Machine Double Precision](https://emilyblackb.github.io/math5610/Software_Manual/MachineErrorDoublePrecision)
+1. [Machine Single Precision](MachineErrorSinglePrecision.md)
+2. [Machine Double Precision](https://emilyblackb.github.io/math5610/Software_Manual/MachineErrorDoublePrecision.md)
 3. [Random Matrix Generator](https://emilyblackb.github.io/math5610/Software_Manual/RandomMatrixGenerator)
 4. [Absolute Error](https://emilyblackb.github.io/math5610/Software_Manual/AbsoluteError)
 5. [Relative Error](https://emilyblackb.github.io/math5610/Software_Manual/RelativeError)
