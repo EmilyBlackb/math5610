@@ -2,7 +2,7 @@
 
 1. [ ] [Machine Precision](1-MachinePrecision.md)
 2. [ ] [Creating GitHub Repository](2-CreatingGitHubRepository.md)
-3. [ ] [Github Pages Repository]()
+3. [ ] [Github Pages Repository](3-GithubPagesRepository.md)
 4. [ ] [Software Manual Template]()
 5. [ ] [Table of Contents]()
 6. [ ] [Shared Library]()
