@@ -1,6 +1,6 @@
 ### Homework 1 Tasks:
 
-1. [ ] [Machine Precision](1-MachinePrecision.md)
+1. [x] [Machine Precision](1-MachinePrecision.md)
 2. [x] [Creating GitHub Repository](2-CreatingGitHubRepository.md)
 3. [x] [Github Pages Repository](3-GithubPagesRepository.md)
 4. [x] [Software Manual Template](4-SoftwareManualTemplate.md)
