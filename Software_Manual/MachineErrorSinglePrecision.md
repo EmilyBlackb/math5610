@@ -11,15 +11,11 @@ usually will need to be run one time for each computer.
 
 **Input:** There are no inputs needed in this case. 
 
-**Output:** This routine returns a single precision value for the number of decimal digits that can be represented on the
-computer being queried. The routine gives the machine epsilon and the power of two that gives the machine epsilon.
+**Output:** There are no outputs for this routine. The program prints the machine precision epsilon.
 
 **Usage/Example:**
 
-The routine has two arguments needed to return the values of the precision in terms of the smallest number that can be
-represented. Since the code is written in terms of a Fortran subroutine, the values of the machine machine epsilon and
-the power of two that gives the machine epsilon. Due to implicit Fortran typing, the first argument is a single precision
-value and the second is an integer.
+The routine prints the values of the machine epsilon and the power of two that gives the machine epsilon. 
       
       single_precision();
 
@@ -41,13 +37,13 @@ end of the second value).
     void single_precision() {
         float x = 1;
         float y = 1;
-        float z = x +1;
+        float z = x + 1;
         int time = 0;
     
         while (z != 1){
             x = x/2.0;
             z =  y + x;
-            time = time +1.0;
+            time = time + 1.0;
             if ((z - y) == 0.0){
                 break;
             }
