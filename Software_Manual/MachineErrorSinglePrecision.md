@@ -25,10 +25,10 @@ value and the second is an integer.
 
 Output from the lines above:
 
-      24   5.96046448E-08
+      5.96046e-08
+      24
 
-The first value (24) is the number of binary digits that define the machine epsilon and the second is related to the
-decimal version of the same value. The number of decimal digits that can be represented is roughly eight (E-08 on the
+The first value is related to the decimal version of the machine epsilon and the second value (24) is the number of binary digits that define the same machine epsilon. The number of decimal digits that can be represented is roughly eight (E-08 on the
 end of the second value).
 
 **Implementation/Code:** The following is the code for single_precision()
