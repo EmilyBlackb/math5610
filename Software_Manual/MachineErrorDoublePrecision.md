@@ -9,10 +9,10 @@
 in the representation of real numbers in double precision. This is a routine for analyzing the behavior of any computer. This
 usually will need to be run one time for each computer.
 
+
 **Input:** There are no inputs needed in this case. 
 
-**Output:** This routine returns a double precision value for the number of decimal digits that can be represented on the
-computer being queried. The routine gives the machine epsilon and the power of two that gives the machine epsilon.
+**Output:** There are no outputs for this routine. The program prints the machine precision epsilon.
 
 **Usage/Example:**
 
