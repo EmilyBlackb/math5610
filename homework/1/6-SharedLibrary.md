@@ -10,7 +10,7 @@ I used Cygwin to change my function code files into -.o files and created a shar
     g++ -c *.cpp
     ar rcv mylib *.o
 
-[Shared Library](Link)
+[Shared Library]( math5610/homework/1/mylib)
 
 
 **references:**
