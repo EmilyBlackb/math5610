@@ -6,7 +6,7 @@
 4. [x] [Software Manual Template](4-SoftwareManualTemplate.md)
 5. [x] [Table of Contents](5-TableofContents.md)
 6. [x] [Shared Library](6-SharedLibrary.md)
-7. [ ] [Computer Processes using OpenMP](7-ComputerProcessesusingOpenMP.md)
+7. [x] [Computer Processes using OpenMP](7-ComputerProcessesusingOpenMP.md)
 8. [ ] [Analysis of Disaster Articles](8-AnalysisofDisasterArticles.md)
 9. [ ] [Random Matrix Generator](9-RandomMatrixGenerator.md)
 10. [ ] [Online Linear Packages Discussion](10-OnlineLinearPackagesDiscussion.md)
