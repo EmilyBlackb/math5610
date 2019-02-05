@@ -1,2 +1,16 @@
-I created a repository on GitHub for Homework under Math5610.
-Link to Math5610 GitHub Repository on GitHub: [Link](https://emilyblackb.github.io/math5610/)
+Using openMP the following code:
+
+reported:
+
+ hello world from thread           7
+ hello world from thread           0
+ hello world from thread           6
+ hello world from thread           1
+ hello world from thread           5
+ hello world from thread           3
+ hello world from thread           4
+ hello world from thread           2
+ There are           8  threads!
+
+
+[hello.exe file](https://emilyblackb.github.io/math5610/)
