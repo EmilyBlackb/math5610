@@ -13,4 +13,4 @@ reported:
  There are           8  threads!
 
 
-[hello.exe file](https://emilyblackb.github.io/math5610/)
+[hello.exe file](https://emilyblackb.github.io/math5610/homework/1/hello.exe)
