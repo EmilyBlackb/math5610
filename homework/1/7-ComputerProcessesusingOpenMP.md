@@ -1,3 +1,11 @@
+I used the Fortran code given by: https://jvkoebbe.github.io/math5610/homework/homework_01 and OpenMP.
+In Cygwin I used the line:
+
+    gfortran -fopenmp hello.f -o hello
+    ./hello.exe
+    
+To compile the code and create a -.exe file.
+
 Using openMP the following code:
 
           program main
