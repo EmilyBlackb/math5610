@@ -61,11 +61,11 @@ Output from the lines above:
     #endif
     
 **References:**   
-https://www.youtube.com/watch?v=0BX5heUj0FI
+<https://www.youtube.com/watch?v=0BX5heUj0FI>
 
-http://www.cplusplus.com/doc/tutorial/classes/
+<http://www.cplusplus.com/doc/tutorial/classes/>
 
-https://www.tutorialspoint.com/cplusplus/cpp_class_member_functions.htm
+<https://www.tutorialspoint.com/cplusplus/cpp_class_member_functions.htm>
 
 Stroustrup, Bjarne. The C++ Programming Language. Addison-Wesley, 1996
 
