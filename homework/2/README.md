@@ -1,6 +1,6 @@
 ### Homework 2 Tasks:
 
-1. [ ] [Email Link](1-MachinePrecision.md)
+1. [x] [Email Link](1-MachinePrecision.md)
 2. [ ] [Absolute Error](2-CreatingGitHubRepository.md)
 3. [ ] [Relative Error](3-GithubPagesRepository.md)
 4. [ ] [Vector Addition](4-SoftwareManualTemplate.md)
