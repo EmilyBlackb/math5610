@@ -3,7 +3,7 @@
 1. [x] [Email Link](1-EmailLink.md)
 2. [x] [Absolute Error](2-AbsoluteError.md)
 3. [x] [Relative Error](3-RelativeError.md)
-4. [ ] [Vector Addition](4-VectorAddition.md)
+4. [x] [Vector Addition](4-VectorAddition.md)
 5. [ ] [Vector-Scalar Multiplication](5-ScalarVectorMultiplication.md)
 6. [ ] [2-Norm](6-2Norm.md)
 7. [ ] [1-Norm](7-1Norm.md)
