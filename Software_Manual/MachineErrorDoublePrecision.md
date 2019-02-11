@@ -3,7 +3,7 @@
 
 **Author:** Emily Blackburn
 
-**Language:** C++ (Can be compiled using gpp compiler)
+**Language:** C++ (Can be compiled using g++ compiler)
 
 **Description/Purpose:** This routine will compute the double precision value for the machine epsilon or the number of digits
 in the representation of real numbers in double precision. This is a routine for analyzing the behavior of any computer. This
