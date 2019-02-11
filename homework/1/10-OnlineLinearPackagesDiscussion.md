@@ -5,5 +5,6 @@ Task: Search the internet for sites that discuss linear algebra packages for sol
 
 
 ### Armadillo
-C++ library for linear algebra & scientific computing
+C++ library for linear algebra & scientific computing:
+
 <http://arma.sourceforge.net/>
