@@ -1,4 +1,4 @@
-**Routine Name:**           Matrix
+**Routine Name:**           Matrix()
 
 **Author:** Emily Blackburn
 
@@ -12,10 +12,10 @@
 
 **Usage/Example:**
 
-The routine requires matrixstruct. The routine takes a matrix using matrixstruct and fills the matrix with random real numbers between 0 and 1. In order to view the numbers generated use the matrixstruct function printm(). 
+The routine requires to arguments: rows and columns and creates an 2D array. matrix[][] accesses the entries in the 2D array. printm() prints the entries in the 2D array. 
 
     Matrix A(2,3);      //creates a matrix named A
-    rfillm(A);          //fills matrix A with random numbers between 0 and 1
+    rfillm(A);          //fills matrix A with random numbers between 0 and 1 
     A.matrix[1][1] = 5; //Changes entry [2][2] to 5
     A.printm();         //prints matrix A
      
@@ -24,7 +24,7 @@ Output from the lines above:
     0.840188  0.394383  0.783099
     0.79844  5  0.197551
 
-**Implementation/Code:** The following is the code for rfillm()
+**Implementation/Code:** The following is the code for Matrix()
 
     #include <iostream>
 
