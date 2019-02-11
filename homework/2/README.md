@@ -9,5 +9,5 @@
 7. [ ] [1-Norm](7-ComputerProcessesusingOpenMP.md)
 8. [ ] [Infinity-Norm](8-AnalysisofDisasterArticles.md)
 9. [ ] [Symmetric Matrix](9-RandomMatrixGenerator.md)
-10. [ ] [Online Linear Packages Discussion](10-OnlineLinearPackagesDiscussion.md)
+10. [ ] [Matrix Norm Discussion](10-MatrixNormDiscussion.md)
 
