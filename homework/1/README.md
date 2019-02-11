@@ -8,5 +8,5 @@
 6. [x] [Shared Library](6-SharedLibrary.md)
 7. [x] [Computer Processes using OpenMP](7-ComputerProcessesusingOpenMP.md)
 8. [ ] [Analysis of Disaster Articles](8-AnalysisofDisasterArticles.md)
-9. [ ] [Random Matrix Generator](9-RandomMatrixGenerator.md)
+9. [x] [Random Matrix Generator](9-RandomMatrixGenerator.md)
 10. [ ] [Online Linear Packages Discussion](10-OnlineLinearPackagesDiscussion.md)
