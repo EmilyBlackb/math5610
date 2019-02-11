@@ -1,7 +1,7 @@
 
-<http://www-users.math.umn.edu/~arnold//disasters/>
-
 # Some disasters attributable to bad numerical computing
+
+<http://www-users.math.umn.edu/~arnold//disasters/>
 
 ## The Patriot Missile Failure
 
