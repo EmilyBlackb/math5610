@@ -4,25 +4,40 @@
 
 **Language:** C++. The code can be compiled using g++ compiler.
 
-**Description/Purpose:** This routine will add together two matrices. 
-([Matrix Struct Link](https://emilyblackb.github.io/math5610/Software_Manual/MatrixStruct)) with random real numbers between 0 and 1.
+**Description/Purpose:** This routine will add together two vectors created using Matrix struct ([Matrix Struct Link](https://emilyblackb.github.io/math5610/Software_Manual/MatrixStruct)) . The matrices need to be of the same dimensions and be either 1 row by n columns or n rows by 1 column. 
 
-**Input:** The function requires 2 matrix structs as input.
+**Input:** The function requires 2 matrix structs as input. Both Matrix structs need to be the same dimensions and either 1 row by n columns or n rows by 1 column.
 
-**Output:** This routine returns a matrix struct.
+**Output:** This routine returns a matrix struct created from the addition of the two matrix struct inputs.
 
 **Usage/Example:**
 
-The routine requires matrixstruct. The routine takes a matrix using matrixstruct and fills the matrix with random real numbers between 0 and 1. In order to view the numbers generated use the matrixstruct function printm(). 
+The routine requires the matrix struct. The routine will take 2 Matrix struct arguments of the same 1 by n or n by 1 dimensions.
 
     Matrix A(2,3);  //creates a matrix named A
-    rfillm(A);      //fills matrix A with random numbers between 0 and 1
+    rfillm(A);      
     A.printm();     //prints matrix A
+    
+    Matrix u(5,1), v(5,1), w(2,2), x(6,1); //creates a matrices u, v, w, and x/
+    rfillm(u);      //fills the matrix with random numbers between 0 and 1 from the #include "ranmatrix.cpp"
+    rfillm(v);
+    rfillm(w);
+    rfillm(x);
+    Matrix result = vadd(v, w);   //w is not a 1 by n or n by 1 matrix so this will return an error
+    result = vadd(v,x);           //v and x are not the same length so this will return an error
+    result = vadd(u,v);           //This will add vector
+    result.printm();              //This will print out the matrix result that was generated from the vadd(u,v) function
+    return 0;
      
 Output from the lines above:
 
-    0.840188  0.394383  0.783099
-    0.79844  0.911647  0.197551
+    Error: One of the inputs was not a vector or one of the inputs needs to be transposed.
+    Error: Vector lengths are not equivalent.
+      1.03774
+      0.729606
+      1.55133
+      1.07621
+      1.46562
 
 **Implementation/Code:** The following is the code for vadd()
 
