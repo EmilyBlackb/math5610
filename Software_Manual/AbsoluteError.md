@@ -22,7 +22,7 @@ Output from the lines above:
 
     4e-05
 
-**Implementation/Code:** The following is the code for rfillm()
+**Implementation/Code:** The following is the code for abserr()
 
     using namespace std;
 
