@@ -4,7 +4,7 @@
 
 **Language:** C++. The code can be compiled using g++ compiler.
 
-**Description/Purpose:** This routine will fill a matrix struct ([Matrix Struct Link](https://emilyblackb.github.io/math5610/Software_Manual/MatrixStruct.md)) with random real numbers between 0 and 1.
+**Description/Purpose:** This routine will fill a matrix struct ([Matrix Struct Link](https://emilyblackb.github.io/math5610/Software_Manual/MatrixStruct)) with random real numbers between 0 and 1.
 
 **Input:** The function requires a matrix struct input.
 
