@@ -1,97 +1,54 @@
-# Math 4610 Fundamentals of Computational Mathematics Software Manual Template File
-This is a template file for building an entry in the student software manual project. You should use the formatting below to
-define an entry in your software manual.
+**Routine Name:**           vadd()
 
-**Routine Name:**           smaceps
+**Author:** Emily Blackburn
 
-**Author:** Joe Koebbe
+**Language:** C++. The code can be compiled using g++ compiler.
 
-**Language:** Fortran. The code can be compiled using the GNU Fortran compiler (gfortran).
+**Description/Purpose:** This routine will add together two matrices. 
+([Matrix Struct Link](https://emilyblackb.github.io/math5610/Software_Manual/MatrixStruct)) with random real numbers between 0 and 1.
 
-For example,
+**Input:** The function requires 2 matrix structs as input.
 
-    gfortran smaceps.f
-
-will produce an executable **./a.exe** than can be executed. If you want a different name, the following will work a bit
-better
-
-    gfortran -o smaceps smaceps.f
-
-**Description/Purpose:** This routine will compute the single precision value for the machine epsilon or the number of digits
-in the representation of real numbers in single precision. This is a routine for analyzing the behavior of any computer. This
-usually will need to be run one time for each computer.
-
-**Input:** There are no inputs needed in this case. Even though there are arguments supplied, the real purpose is to
-return values in those variables.
-
-**Output:** This routine returns a single precision value for the number of decimal digits that can be represented on the
-computer being queried.
+**Output:** This routine returns a matrix struct.
 
 **Usage/Example:**
 
-The routine has two arguments needed to return the values of the precision in terms of the smallest number that can be
-represented. Since the code is written in terms of a Fortran subroutine, the values of the machine machine epsilon and
-the power of two that gives the machine epsilon. Due to implicit Fortran typing, the first argument is a single precision
-value and the second is an integer.
+The routine requires matrixstruct. The routine takes a matrix using matrixstruct and fills the matrix with random real numbers between 0 and 1. In order to view the numbers generated use the matrixstruct function printm(). 
 
-      call smaceps(sval, ipow)
-      print *, ipow, sval
-
+    Matrix A(2,3);  //creates a matrix named A
+    rfillm(A);      //fills matrix A with random numbers between 0 and 1
+    A.printm();     //prints matrix A
+     
 Output from the lines above:
 
-      24   5.96046448E-08
+    0.840188  0.394383  0.783099
+    0.79844  0.911647  0.197551
 
-The first value (24) is the number of binary digits that define the machine epsilon and the second is related to the
-decimal version of the same value. The number of decimal digits that can be represented is roughly eight (E-08 on the
-end of the second value).
+**Implementation/Code:** The following is the code for vadd()
 
-**Implementation/Code:** The following is the code for smaceps()
+    //vector addition
+    #include "matrixstruct.hpp"
 
-      subroutine smaceps(seps, ipow)
-    c
-    c set up storage for the algorithm
-    c --------------------------------
-    c
-          real seps, one, appone
-    c
-    c initialize variables to compute the machine value near 1.0
-    c ----------------------------------------------------------
-    c
-          one = 1.0
-          seps = 1.0
-          appone = one + seps
-    c
-    c loop, dividing by 2 each time to determine when the difference between one and
-    c the approximation is zero in single precision
-    c --------------------------------------------- 
-    c
-          ipow = 0
-          do 1 i=1,1000
-             ipow = ipow + 1
-    c
-    c update the perturbation and compute the approximation to one
-    c ------------------------------------------------------------
-    c
-            seps = seps / 2
-            appone = one + seps
-    c
-    c do the comparison and if small enough, break out of the loop and return
-    c control to the calling code
-    c ---------------------------
-    c
-            if(abs(appone-one) .eq. 0.0) return
-    c
-        1 continue
-    c
-    c if the code gets to this point, there is a bit of trouble
-    c ---------------------------------------------------------
-    c
-          print *,"The loop limit has been exceeded"
-    c
-    c done
-    c ----
-    c
-          return
-    end
+    Matrix vadd(Matrix u, Matrix v){
+        Matrix w(v.rows, v.columns);
+        if((u.columns == 1) && (v.columns == 1)){
+            if(u.rows == v.rows){
+                for(int i = 0; i < v.rows; i++){
+                    w.matrix[i][0] = u.matrix[i][0] + v.matrix[i][0];
+                }
+            }
+            else cout << "Error: Vector lengths are not equivalent." << endl;
+        }
+        else if((u.rows == 1) && (v.rows == 1)){
+            if(u.columns == v.columns){
+                for(int i = 0; i < v.columns; i++){
+                    w.matrix[0][i] = u.matrix[0][i] + v.matrix[0][i];
+                }
+            }
+            else cout << "Error: Vector lengths are not equivalent." << endl;
+        }
+        else cout << "Error: One of the inputs was not a vector or one of the inputs needs to be transposed." << endl;
+        return w;
+    }
 
-**Last Modified:** September/2017
+**Last Modified:** February/2019
