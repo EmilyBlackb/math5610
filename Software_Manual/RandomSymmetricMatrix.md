@@ -22,9 +22,9 @@ The routine requires matrixstruct. The routine takes a n by n matrix using matri
      
 Output from the lines above:
 
-      1.80429e+09  8.46931e+08  1.68169e+09
-      8.46931e+08  1.71464e+09  1.95775e+09
-      1.68169e+09  1.95775e+09  4.24238e+08
+      0.840188  -0.783099  -0.911647
+      -0.783099  0.335223  -0.277775
+      -0.911647  -0.277775  -0.477397
 
 The lines of code output are the entries for the symmetric matrix A.
 
@@ -34,19 +34,21 @@ The lines of code output are the entries for the symmetric matrix A.
 
     using namespace std;
 
-    //fills an n by n matrix struct with random numbers.
+    //fills a square matrix struct with symmetric random numbers between -1 and 1 .
 
     void rsymmfillm(Matrix &A){
         if (A.rows == A.columns){
             for(int row = 0; row < A.rows; row++){
                 for(int col = row; col < A.columns; col++){
-                    A.matrix[row][col] = 1.0*rand();
+                    A.matrix[row][col] = 1.0*rand()/RAND_MAX;
+                    if (rand() % 2 == 1) A.matrix[row][col] = -1.0*A.matrix[row][col];
                     A.matrix[col][row] = A.matrix[row][col];
                 }
             }
         }
         else cout << "Error: Matrix is not square-cannot be symmetric\n";
     }
+
 
 
 **Last Modified:** February/2019
