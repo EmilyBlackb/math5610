@@ -1,3 +1,5 @@
+# Absolute Error Function
+
 **Routine Name:**           abserr()
 
 **Author:** Emily Blackburn
