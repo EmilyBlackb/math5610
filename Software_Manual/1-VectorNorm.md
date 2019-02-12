@@ -1,6 +1,6 @@
-# Vector 2-Norm
+# Vector 1-Norm
 
-**Routine Name:**           smaceps
+**Routine Name:**           onenorm
 
 **Author:** Emily Blackburn
 
