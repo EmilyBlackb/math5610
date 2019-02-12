@@ -1,3 +1,3 @@
-Created a function in C++ to add two vectors together. The vectors are defined as a 1 by n or n by 1 matrix using matrix struct:
+Created a routine that will generate a symmetric matrix that has real values in all entries of the matrix:
 
-[Vector Addition Software Page](https://emilyblackb.github.io/math5610/VectorAddition)
+[Symmetric Matrix Software Page](https://emilyblackb.github.io/math5610/VectorAddition)
