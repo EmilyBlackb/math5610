@@ -1,4 +1,4 @@
-# Vector 2-Norm
+# Vector infinity-Norm
 
 **Routine Name:**           smaceps
 
