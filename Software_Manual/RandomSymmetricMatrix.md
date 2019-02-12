@@ -1,6 +1,6 @@
 # Random Symmetric Matrix generator
 
-**Routine Name:**           rfillm
+**Routine Name:**           rsymmfillm
 
 **Author:** Emily Blackburn
 
@@ -8,39 +8,46 @@
 
 **Description/Purpose:** This routine that will generate a symmetric matrix that has real values in all entries of the matrix using matrix struct ([Matrix Struct Link](https://emilyblackb.github.io/math5610/Software_Manual/MatrixStruct)).
 
-**Input:** The function requires a matrix struct input.
+**Input:** The function requires a square matrix struct input.
 
-**Output:** This routine returns that same matrix filled with random real numbers between 0 and 1.
+**Output:** This routine returns that same matrix filled with random real numbers.
 
 **Usage/Example:**
 
-The routine requires matrixstruct. The routine takes a matrix using matrixstruct and fills the matrix with random real numbers between 0 and 1. In order to view the numbers generated use the matrixstruct function printm(). 
+The routine requires matrixstruct. The routine takes a n by n matrix using matrixstruct and fills the matrix with random real. In order to view the numbers generated use the matrixstruct function printm(). 
 
-    Matrix A(2,3);  //creates a matrix named A
-    rfillm(A);      //fills matrix A with random numbers between 0 and 1
+    Matrix A(3,3);  //creates a 3 by 3 matrix named A
+    rsymmfillm(A);  //fills matrix A with random numbers
     A.printm();     //prints matrix A
      
 Output from the lines above:
 
-    0.840188  0.394383  0.783099
-    0.79844  0.911647  0.197551
+      1.80429e+09  8.46931e+08  1.68169e+09
+      8.46931e+08  1.71464e+09  1.95775e+09
+      1.68169e+09  1.95775e+09  4.24238e+08
 
-**Implementation/Code:** The following is the code for rfillm()
+The lines of code output are the entries for the symmetric matrix A.
 
-    #include <iostream>
+**Implementation/Code:** The following is the code for rsymmfillm()
+
     #include "matrixstruct.hpp"
 
     using namespace std;
 
-    //fills a matrix struct with random numbers between 0 and 1.
+    //fills an n by n matrix struct with random numbers.
 
-    void rfillm(Matrix &A){
-        for(int row = 0; row < A.rows; row++){
-            for(int col = 0; col < A.columns; col++){
-                A.matrix[row][col] = 1.0*rand()/RAND_MAX;
+    void rsymmfillm(Matrix &A){
+        if (A.rows == A.columns){
+            for(int row = 0; row < A.rows; row++){
+                for(int col = row; col < A.columns; col++){
+                    A.matrix[row][col] = 1.0*rand();
+                    A.matrix[col][row] = A.matrix[row][col];
+                }
             }
         }
+        else cout << "Error: Matrix is not square-cannot be symmetric\n";
     }
+
 
 **Last Modified:** February/2019
 
