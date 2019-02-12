@@ -1,4 +1,4 @@
-I used Cygwin to change my function code files into -.o files and created a sharerd library using the following commands:
+I used Cygwin to change my function code files into -.o files and created a shared library using the following commands:
     pwd
     cd c:\Users
     cd\labuser
