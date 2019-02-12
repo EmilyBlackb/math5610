@@ -1,5 +1,5 @@
 # Table of Contents
-### Homework 1
+## Homework 1
 
 1. [Machine Single Precision](MachineErrorSinglePrecision.md)
 2. [Machine Double Precision](MachineErrorDoublePrecision.md)
