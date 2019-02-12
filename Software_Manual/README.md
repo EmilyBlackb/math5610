@@ -1,4 +1,7 @@
 # Table of Contents
+
+## Software Manual Template
+
 ## Homework 1
 
 1. [Machine Single Precision](MachineErrorSinglePrecision.md)
