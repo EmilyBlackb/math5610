@@ -1,38 +1,21 @@
-# Math 4610 Fundamentals of Computational Mathematics Software Manual Template File
-This is a template file for building an entry in the student software manual project. You should use the formatting below to
-define an entry in your software manual.
+# Vector 2-Norm
 
 **Routine Name:**           smaceps
 
-**Author:** Joe Koebbe
+**Author:** Emily Blackburn
 
-**Language:** Fortran. The code can be compiled using the GNU Fortran compiler (gfortran).
+**Language:** C++. The code can be compiled using the g++ compiler.
 
-For example,
 
-    gfortran smaceps.f
+**Description/Purpose:** This routine will compute the 2-norm of an arbitrary vector will real number entries. 
 
-will produce an executable **./a.exe** than can be executed. If you want a different name, the following will work a bit
-better
+**Input:** This routine takes a vector (a 1 by n or n by 1 matrix created using the matrix struct) as input.
 
-    gfortran -o smaceps smaceps.f
-
-**Description/Purpose:** This routine will compute the single precision value for the machine epsilon or the number of digits
-in the representation of real numbers in single precision. This is a routine for analyzing the behavior of any computer. This
-usually will need to be run one time for each computer.
-
-**Input:** There are no inputs needed in this case. Even though there are arguments supplied, the real purpose is to
-return values in those variables.
-
-**Output:** This routine returns a single precision value for the number of decimal digits that can be represented on the
-computer being queried.
+**Output:** This routine returns the 2-norm of the vector input as a real number.
 
 **Usage/Example:**
 
-The routine has two arguments needed to return the values of the precision in terms of the smallest number that can be
-represented. Since the code is written in terms of a Fortran subroutine, the values of the machine machine epsilon and
-the power of two that gives the machine epsilon. Due to implicit Fortran typing, the first argument is a single precision
-value and the second is an integer.
+The routine has one argument needed to return the 2-norm value.
 
       call smaceps(sval, ipow)
       print *, ipow, sval
@@ -41,9 +24,7 @@ Output from the lines above:
 
       24   5.96046448E-08
 
-The first value (24) is the number of binary digits that define the machine epsilon and the second is related to the
-decimal version of the same value. The number of decimal digits that can be represented is roughly eight (E-08 on the
-end of the second value).
+The resulting output is the 2-norm of the vector input.
 
 **Implementation/Code:** The following is the code for smaceps()
 
@@ -94,4 +75,4 @@ end of the second value).
           return
     end
 
-**Last Modified:** September/2017
+**Last Modified:** February/2019
