@@ -1,3 +1,5 @@
+# Relative Error Function
+
 **Routine Name:**           relerr()
 
 **Author:** Emily Blackburn
