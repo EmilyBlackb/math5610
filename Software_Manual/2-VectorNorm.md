@@ -53,5 +53,7 @@ The resulting output is the 2-norm of the vector input.
           else cout << "Error: the vector needs to have either 1 column or 1 row" << endl;
           return sum;
       }
+      
+ **References:** <http://www.cplusplus.com/reference/cmath/sqrt/>
 
 **Last Modified:** February/2019
