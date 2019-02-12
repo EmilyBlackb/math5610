@@ -1,9 +1,13 @@
-### Table of Contents
+# Table of Contents
+## Homework 1
 
 1. [Machine Single Precision](MachineErrorSinglePrecision.md)
 2. [Machine Double Precision](MachineErrorDoublePrecision.md)
 3. [Matrix Struct](MatrixStruct.md)
 4. [Random Matrix Generator](RandomMatrixGenerator.md)
+
+## Homework 2
+
 5. [Absolute Error](AbsoluteError.md)
 6. [Relative Error](RelativeError.md)
 7. [Vector Addition](VectorAddition.md)
@@ -12,6 +16,9 @@
 10. [1-Norm (Vector)](1-VectorNorm.md)
 11. [Infinity-Norm (Vector)](Infinity-VectorNorm.md)
 12. [Random Symmetric Matrix Generator](RandomSymmetricMatrix.md)
+
+## Homework 3
+
 13. [2-Norm Absolute Error (Vector)]()
 14. [1-Norm Absolute Error (Vector)]()
 15. [Infinity-Norm Absolute Error (Vector)]()
