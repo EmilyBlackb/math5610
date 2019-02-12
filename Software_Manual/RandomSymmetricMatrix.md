@@ -22,9 +22,9 @@ The routine requires matrixstruct. The routine takes a n by n matrix using matri
      
 Output from the lines above:
 
-      0.840188  -0.783099  -0.911647
-      -0.783099  0.335223  -0.277775
-      -0.911647  -0.277775  -0.477397
+      -2.12419e+09  3.0555e+08  9.74513e+08
+      3.0555e+08  -9.73617e+08  -1.1883e+09
+      9.74513e+08  -1.1883e+09  1.68524e+09
 
 The lines of code output are the entries for the symmetric matrix A.
 
@@ -34,13 +34,13 @@ The lines of code output are the entries for the symmetric matrix A.
 
     using namespace std;
 
-    //fills a square matrix struct with symmetric random numbers between -1 and 1 .
+    //fills a square matrix struct with symmetric random numbers.
 
     void rsymmfillm(Matrix &A){
         if (A.rows == A.columns){
             for(int row = 0; row < A.rows; row++){
                 for(int col = row; col < A.columns; col++){
-                    A.matrix[row][col] = 1.0*rand()/RAND_MAX;
+                    A.matrix[row][col] = 1.0*rand();
                     if (rand() % 2 == 1) A.matrix[row][col] = -1.0*A.matrix[row][col];
                     A.matrix[col][row] = A.matrix[row][col];
                 }
