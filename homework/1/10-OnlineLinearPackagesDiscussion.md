@@ -24,6 +24,6 @@ LAPACK++ (Linear Algebra PACKage in C++) is a software library for numerical lin
 
 ### Eigen
 
-Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.s.
+Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.
 
 <http://eigen.tuxfamily.org/index.php?title=Main_Page>
