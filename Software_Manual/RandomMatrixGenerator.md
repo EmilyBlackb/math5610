@@ -27,14 +27,15 @@ Output from the lines above:
 
 **Implementation/Code:** The following is the code for rfillm()
 
-    #include <iostream>
-    #include "matrixstruct.hpp"
+    ##include "matrixstruct.hpp"
+    #include <time.h>
 
     using namespace std;
 
     //fills a matrix struct with random numbers between 0 and 1.
 
     void rfillm(Matrix &A){
+        srand(time(0));
         for(int row = 0; row < A.rows; row++){
             for(int col = 0; col < A.columns; col++){
                 A.matrix[row][col] = 1.0*rand()/RAND_MAX;
