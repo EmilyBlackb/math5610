@@ -4,7 +4,7 @@
 2. [x] [Absolute Error](2-AbsoluteError.md)
 3. [x] [Relative Error](3-RelativeError.md)
 4. [x] [Vector Addition](4-VectorAddition.md)
-5. [ ] [Vector-Scalar Multiplication](5-ScalarVectorMultiplication.md)
+5. [x] [Vector-Scalar Multiplication](5-ScalarVectorMultiplication.md)
 6. [ ] [2-Norm (Vector)](6-2Norm.md)
 7. [ ] [1-Norm (Vector)](7-1Norm.md)
 8. [ ] [Infinity-Norm (Vector)](8-InfinityNorm.md)
