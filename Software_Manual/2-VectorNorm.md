@@ -1,6 +1,6 @@
 # Vector 2-Norm
 
-**Routine Name:**           smaceps
+**Routine Name:**           twonormv
 
 **Author:** Emily Blackburn
 
@@ -17,62 +17,41 @@
 
 The routine has one argument needed to return the 2-norm value.
 
-      call smaceps(sval, ipow)
-      print *, ipow, sval
+      Matrix v(5,1), w(2,2);
+      rfillm(v);
+      rfillm(w);
+      double result = twonormv(v);
+      cout << result << endl;
+      result = twonormv(w);
 
 Output from the lines above:
 
-      24   5.96046448E-08
+      1.71561
+      Error: the vector needs to have either 1 column or 1 row
 
 The resulting output is the 2-norm of the vector input.
 
-**Implementation/Code:** The following is the code for smaceps()
+**Implementation/Code:** The following is the code for twonormv()
 
-      subroutine smaceps(seps, ipow)
-    c
-    c set up storage for the algorithm
-    c --------------------------------
-    c
-          real seps, one, appone
-    c
-    c initialize variables to compute the machine value near 1.0
-    c ----------------------------------------------------------
-    c
-          one = 1.0
-          seps = 1.0
-          appone = one + seps
-    c
-    c loop, dividing by 2 each time to determine when the difference between one and
-    c the approximation is zero in single precision
-    c --------------------------------------------- 
-    c
-          ipow = 0
-          do 1 i=1,1000
-             ipow = ipow + 1
-    c
-    c update the perturbation and compute the approximation to one
-    c ------------------------------------------------------------
-    c
-            seps = seps / 2
-            appone = one + seps
-    c
-    c do the comparison and if small enough, break out of the loop and return
-    c control to the calling code
-    c ---------------------------
-    c
-            if(abs(appone-one) .eq. 0.0) return
-    c
-        1 continue
-    c
-    c if the code gets to this point, there is a bit of trouble
-    c ---------------------------------------------------------
-    c
-          print *,"The loop limit has been exceeded"
-    c
-    c done
-    c ----
-    c
-          return
-    end
+      #include "matrixstruct.hpp"
+      #include <math.h>
+
+      double twonormv(Matrix v){
+          double sum = 0.0, absvalue = 0.0;
+          if(v.columns == 1){
+              for(int i = 0; i < v.rows; i++){
+                  sum = sum + v.matrix[i][0]*v.matrix[i][0];
+              }
+              sum = sqrt(sum);
+          }
+          else if(v.rows == 1){
+              for(int i = 0; i < v.columns; i++){
+                  sum = sum + v.matrix[0][i]*v.matrix[0][i];
+              }
+              sum = sqrt(sum);
+          }
+          else cout << "Error: the vector needs to have either 1 column or 1 row" << endl;
+          return sum;
+      }
 
 **Last Modified:** February/2019
