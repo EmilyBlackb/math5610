@@ -22,8 +22,8 @@ The routine has two arguments needed to return the matrix struct. The first argu
     rfillm(w);
     Matrix result = cvec(v, 5.5);  //compute the multiplication of vector v with 5.5 and store it in matrix v
     result.printm();        //print the entries in the matric result
-    cvec(w, 4.05);          //compute the multiplcation of matrix w with 4.05 - will result in an error since w is 
-                            //not a 1 by n or n by 1 matrix
+    cvec(w, 4.05);          //compute the multiplication of matrix w with 4.05 
+                            //- will result in an error since w is not a 1 by n or n by 1 matrix
 
 Output from the lines above:
 
