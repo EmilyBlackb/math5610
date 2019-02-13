@@ -41,21 +41,20 @@ The first 5 values resulted are from the computation of the vector v with 5.5. T
     #include "matrixstruct.hpp"
 
     Matrix cvec(Matrix v, double c){
-        Matrix w(v.rows, 1);
+        Matrix w(v.rows, 1), u(1, v.columns);
         if(v.columns == 1){
             for(int i = 0; i < v.rows; i++){
                 w.matrix[i][0] = c*v.matrix[i][0];
             }
+            return w;
         }
         else if(v.rows == 1){
             for(int i = 0; i < v.columns; i++){
-                w.matrix[0][i] = c*v.matrix[0][i];
+                u.matrix[0][i] = c*v.matrix[0][i];
             }
+            return u;
         }
         else cout << "Error: the Vector needs to have 1 column or 1 row" << endl;
-        return w;
     }
-
-
 
 **Last Modified:** February/2019
