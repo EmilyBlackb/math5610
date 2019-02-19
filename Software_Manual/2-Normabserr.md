@@ -1,4 +1,4 @@
-# 2-Norm Absolute Error
+# Absolute Error of two vectors in the 2-Norm
 
 **Routine Name:**           twonormabsv
 
