@@ -11,11 +11,11 @@
 
 **Input:** This routine takes two vectors: one vector and an approximate of that vector.
 
-**Output:** This routine will return the absolute error in the approximation of one vector by another when the 2-norm is used as a double.
+**Output:** This routine will return as a double the absolute error in the approximation of one vector by another when the 2-norm is used.
 
 **Usage/Example:**
 
-The routine has one argument needed to return the 1-norm value.
+The routine has two arguments needed to return the 2-norm value: two 1 by n or n by 1 matrices using matrix struct.
 
       srand(time(NULL));
       Matrix v(1,3), w(1,3);
