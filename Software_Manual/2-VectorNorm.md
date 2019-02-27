@@ -17,6 +17,7 @@
 
 The routine has one argument needed to return the 2-norm value.
 
+      srand(time(NULL));
       Matrix v(5,1), w(2,2);
       rfillm(v);
       rfillm(w);
@@ -26,10 +27,10 @@ The routine has one argument needed to return the 2-norm value.
 
 Output from the lines above:
 
-      1.71561
+      4.29848
       Error: the vector needs to have either 1 column or 1 row
 
-The resulting output is the 2-norm of the vector input.
+The first resulting output is the 2-norm of the vector v input. The second line of output is the error message associated with not entering a vector as input.
 
 **Implementation/Code:** The following is the code for twonormv()
 
@@ -37,7 +38,7 @@ The resulting output is the 2-norm of the vector input.
       #include <math.h>
 
       double twonormv(Matrix v){
-          double sum = 0.0, absvalue = 0.0;
+          double sum = 0.0;
           if(v.columns == 1){
               for(int i = 0; i < v.rows; i++){
                   sum = sum + v.matrix[i][0]*v.matrix[i][0];
