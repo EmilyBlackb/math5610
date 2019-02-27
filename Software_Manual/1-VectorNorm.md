@@ -40,14 +40,14 @@ The the first output is the calculated 1-norm of the vector v. The second output
           if(v.columns == 1){
               for(int i = 0; i < v.rows; i++){
                   absvalue = v.matrix[i][0];
-                  if (absvalue < 0) absvalue = -1.0*absvalue;
+                  if (absvalue < 0) absvalue = -1.0*absvalue; //This turns negative numbers to positive numbers
                   sum = sum + absvalue;
               }
           }
           else if(v.rows == 1){
               for(int i = 0; i < v.columns; i++){
                   absvalue = v.matrix[0][i];
-                  if (absvalue < 0) absvalue = -1.0*absvalue;
+                  if (absvalue < 0) absvalue = -1.0*absvalue; //This turns negative numbers to positive numbers
                   sum = sum + absvalue;
               }
           }
