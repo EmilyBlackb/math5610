@@ -20,12 +20,12 @@ The routine takes two double numbers and returns the relative error.
 
 Output from the lines above:
 
-      0.00200016
+      7.99936e-05
 
 **Implementation/Code:** The following is the code for relerr()
 
     double relerr(double real, double approx){
-    double rerr = (1.0*real - 1.0*approx)/1.0*approx;
+    double rerr = (real - approx)/approx;
     if (rerr < 0) rerr = -1*rerr;
     return rerr;
     }
