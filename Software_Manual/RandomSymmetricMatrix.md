@@ -16,15 +16,16 @@
 
 The routine requires matrixstruct. The routine takes a n by n matrix using matrixstruct and fills the matrix with random real. In order to view the numbers generated use the matrixstruct function printm(). 
 
+    srand(time(NULL));
     Matrix A(3,3);  //creates a 3 by 3 matrix named A
     rsymmfillm(A);  //fills matrix A with random numbers
     A.printm();     //prints matrix A
      
 Output from the lines above:
-
-      -2.12419e+09  3.0555e+08  9.74513e+08
-      3.0555e+08  -9.73617e+08  -1.1883e+09
-      9.74513e+08  -1.1883e+09  1.68524e+09
+    
+    -2.89572e+08  1.92151e+09  1.5912e+09
+    1.92151e+09  -3.98618e+08  7.22746e+08
+    1.5912e+09  7.22746e+08  -1.81335e+09
 
 The lines of code output are the entries for the symmetric matrix A.
 
@@ -41,14 +42,13 @@ The lines of code output are the entries for the symmetric matrix A.
             for(int row = 0; row < A.rows; row++){
                 for(int col = row; col < A.columns; col++){
                     A.matrix[row][col] = 1.0*rand();
-                    if (rand() % 2 == 1) A.matrix[row][col] = -1.0*A.matrix[row][col];
+                    if (rand() % 2 == 1) A.matrix[row][col] = -1.0*A.matrix[row][col]; //randomly assigns some entries as negative.
                     A.matrix[col][row] = A.matrix[row][col];
                 }
             }
         }
         else cout << "Error: Matrix is not square-cannot be symmetric\n";
     }
-
 
 
 **Last Modified:** February/2019
