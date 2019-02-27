@@ -29,7 +29,7 @@ Output from the lines above:
     using namespace std;
 
     double abserr(double real, double approx){
-        double aerr = 1.0*real - 1.0*approx;
+        double aerr = real - approx;
         if (aerr < 0) aerr = -1*aerr;
         return aerr;
     }
