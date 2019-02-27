@@ -1,4 +1,4 @@
-# Vector 1-Norm
+# Absolute Error using the Infinity Norm
 
 **Routine Name:**           onenormv
 
