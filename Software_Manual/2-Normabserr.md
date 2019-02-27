@@ -27,6 +27,8 @@ Output from the lines above:
 
       0.819036
 
+The output is the absolute error of the vectors v and w using the 2-norm.
+
 **Implementation/Code:** The following is the code for twonormabsv()
 
     #include "matrixstruct.hpp"
