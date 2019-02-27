@@ -6,7 +6,6 @@
 
 **Language:** C++. The code can be compiled using the g++ compiler.
 
-
 **Description/Purpose:** This routine will compute the absolute error in the approximation of one vector by another when the 1-norm is used. 
 
 **Input:** This routine takes two vectors: one vector and another vector approximating that vector.
@@ -15,7 +14,7 @@
 
 **Usage/Example:**
 
-The routine has two arguments needed to return the 1-norm value: two 1 by n or n by 1 matrices from the matrix struct.
+The routine has two arguments needed to return the 1-norm value as a double: two 1 by n or n by 1 matrices from the matrix struct.
 
     srand(time(NULL));
     Matrix v(1,3), w(1,3);
@@ -44,7 +43,5 @@ Output from the lines above:
     }
 
     #endif
-
-
 
 **Last Modified:** February/2019
