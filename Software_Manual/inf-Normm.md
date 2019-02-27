@@ -1,4 +1,4 @@
-# Vector 1-Norm
+# Matrix Infinity-Norm
 
 **Routine Name:**           onenormv
 
