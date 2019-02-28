@@ -9,6 +9,8 @@ Armadillo is a C++ library for linear algebra & scientific computing:
 
 <http://arma.sourceforge.net/>
 
+Armadillo has similar structure to matlab and has efficient structs for matrics, cubes, and vectors. Supports sparse and dense matrices. Various matrix decompositions provided through LAPACK.
+
 ### Elemental
 
 Elemental is open-source, openly-developed, software for distributed-memory dense and sparse-direct linear algebra and optimization which supports a wide range of functionality not available elsewhere:
@@ -21,6 +23,7 @@ LAPACK++ (Linear Algebra PACKage in C++) is a software library for numerical lin
 
 <https://math.nist.gov/lapack++/>
 
+LAPACK++ supports banded, triangular, tridiagonal, symmetric, and non-symmetric matrices as well as symmetric positive definite systems. 
 
 ### Eigen
 

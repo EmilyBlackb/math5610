@@ -22,13 +22,13 @@
 
 ## Homework 3
 
-13. [2-Norm Absolute Error (Vector)]()
-14. [1-Norm Absolute Error (Vector)]()
-15. [Infinity-Norm Absolute Error (Vector)]()
-16. [1-Norm (Square Matrix)]()
-17. [Infinity-Norm (Square Matrix]()
-18. [Vector Dot Product]()
-19. [Vector Cross Product (Length 3)]()
-20. [Matrix-Matrix Multiplication]()
-21. [Diagonally Dominant Matrix Generator]()
+13. [2-Norm Absolute Error (Vector)](2-Normabserr.md)
+14. [1-Norm Absolute Error (Vector)](1-Normabserr.md)
+15. [Infinity-Norm Absolute Error (Vector)](inf-Normabserr.md)
+16. [1-Norm (Square Matrix)](1-Normm.md)
+17. [Infinity-Norm (Square Matrix)](inf-Normm.md)
+18. [Vector Dot Product](dotv.md)
+19. [Vector Cross Product (Length 3)](crossv.md)
+20. [Matrix-Matrix Multiplication](Matrixmult.md)
+21. [Diagonally Dominant Matrix Generator](diagdom.md)
 

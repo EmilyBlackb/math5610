@@ -1,4 +1,4 @@
-# Vector 1-Norm
+# Matrix-Matrix Multiplication
 
 **Routine Name:**           onenormv
 
