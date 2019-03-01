@@ -1,5 +1,5 @@
-Created a routine that will compute the 2-norm of an arbitrary vector will real number entries:
+Created a routine that returns the dot produce of two vectors of the same length:
 
-[Vector 2-Norm Software Page Link](https://emilyblackb.github.io/math5610/Software_Manual/2-VectorNorm)
+[Vector 2-Norm Software Page Link](https://emilyblackb.github.io/math5610/Software_Manual/dotv)
 
       
