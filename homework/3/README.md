@@ -15,7 +15,7 @@
  Implement a method that returns the dot produce of two vectors of the same length. Add an entry to your software manual that documents the method.
 7. [ ] [Task:](7-crossproduct.md)
  Implement a method that returns the cross-product of two vectors of length three. Add an entry to your software manual that documents the method.
-8. [ ] [Task:](8-InfinityNorm.md)
+8. [ ] [Task:](8-matrixmultiplication.md)
  Implement a method that returns the product of two matrices with an equal inner dimension. Add an entry to your software manual that documents the method.
 9. [ ] [Task:](9-SymmetricMatrix.md)
  Write a routine that will generate a diagonally dominant matrix that has real values in all entries of the matrix. Add an entry to your for the method you create.
