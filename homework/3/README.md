@@ -4,7 +4,7 @@
  Implement a method that returns the absolute error in the approximation of one vector by another when the 2-norm is used. Make sure to add an entry to your software manual to document the work.
 2. [ ] [Task:](2-1normabserr.md)
  Implement a method that returns the absolute error in the approximation of one vector by another when the 1-norm is used. Add an entry to your software manual that documents the method.
-3. [ ] [Task:](3-RelativeError.md)
+3. [ ] [Task:](3-infnormabserr.md)
  Implement a method that returns the absolute error in the approximation of one vector by another when the ∞
 -norm is used. Add an entry to your software manual that documents the method. 
 4. [ ] [Task:](4-VectorAddition.md)
