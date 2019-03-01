@@ -9,7 +9,7 @@
 -norm is used. Add an entry to your software manual that documents the method. 
 4. [ ] [Task:](4-1matrixnorm.md)
  Implement a method that returns the 1-matrix norm of a given square matrix. Add an entry to your software manual that documents the method. 
-5. [ ] [Task:](5-ScalarVectorMultiplication.md)
+5. [ ] [Task:](5-infmatrixnorm.md)
  Implement a method that returns the ∞-norm of a given square matrix. Add an entry to your software manual that documents the method.
 6. [ ] [Task:](6-2Norm.md)
  Implement a method that returns the dot produce of two vectors of the same length. Add an entry to your software manual that documents the method.
