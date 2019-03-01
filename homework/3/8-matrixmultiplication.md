@@ -1,3 +1,3 @@
-Created a routine that will compute the ∞-norm of an arbitrary vector will real number entries:
+Created a routine that returns the product of two matrices with an equal inner dimension:
 
-[Infinity Vector Norm Software Page](<https://emilyblackb.github.io/math5610/Software_Manual/Infinity-VectorNorm>)
+[Matrix Multiplication Software Page](https://emilyblackb.github.io/math5610/Software_Manual/Matrixmult)
