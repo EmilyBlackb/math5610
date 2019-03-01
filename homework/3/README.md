@@ -7,15 +7,15 @@
 3. [x] [Task:](3-infnormabserr.md)
  Implement a method that returns the absolute error in the approximation of one vector by another when the ∞
 -norm is used. Add an entry to your software manual that documents the method. 
-4. [ ] [Task:](4-1matrixnorm.md)
+4. [x] [Task:](4-1matrixnorm.md)
  Implement a method that returns the 1-matrix norm of a given square matrix. Add an entry to your software manual that documents the method. 
-5. [ ] [Task:](5-infmatrixnorm.md)
+5. [x] [Task:](5-infmatrixnorm.md)
  Implement a method that returns the ∞-norm of a given square matrix. Add an entry to your software manual that documents the method.
-6. [ ] [Task:](6-dotproduct.md)
+6. [x] [Task:](6-dotproduct.md)
  Implement a method that returns the dot produce of two vectors of the same length. Add an entry to your software manual that documents the method.
-7. [ ] [Task:](7-crossproduct.md)
+7. [x] [Task:](7-crossproduct.md)
  Implement a method that returns the cross-product of two vectors of length three. Add an entry to your software manual that documents the method.
-8. [ ] [Task:](8-matrixmultiplication.md)
+8. [x] [Task:](8-matrixmultiplication.md)
  Implement a method that returns the product of two matrices with an equal inner dimension. Add an entry to your software manual that documents the method.
 9. [ ] [Task:](9-diagdom.md)
  Write a routine that will generate a diagonally dominant matrix that has real values in all entries of the matrix. Add an entry to your for the method you create.
