@@ -11,9 +11,9 @@
  Implement a method that returns the 1-matrix norm of a given square matrix. Add an entry to your software manual that documents the method. 
 5. [ ] [Task:](5-infmatrixnorm.md)
  Implement a method that returns the ∞-norm of a given square matrix. Add an entry to your software manual that documents the method.
-6. [ ] [Task:](6-2Norm.md)
+6. [ ] [Task:](6-dotproduct.md)
  Implement a method that returns the dot produce of two vectors of the same length. Add an entry to your software manual that documents the method.
-7. [ ] [Task:](7-1Norm.md)
+7. [ ] [Task:](7-crossproduct.md)
  Implement a method that returns the cross-product of two vectors of length three. Add an entry to your software manual that documents the method.
 8. [ ] [Task:](8-InfinityNorm.md)
  Implement a method that returns the product of two matrices with an equal inner dimension. Add an entry to your software manual that documents the method.
