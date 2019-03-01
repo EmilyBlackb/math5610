@@ -1,8 +1,8 @@
 ### Homework 3 Tasks:
 
-1. [ ] [Task:](1-EmailLink.md)
+1. [ ] [Task:](1-2normabserr.md)
  Implement a method that returns the absolute error in the approximation of one vector by another when the 2-norm is used. Make sure to add an entry to your software manual to document the work.
-2. [ ] [Task:](2-AbsoluteError.md)
+2. [ ] [Task:](2-1normabserr.md)
  Implement a method that returns the absolute error in the approximation of one vector by another when the 1-norm is used. Add an entry to your software manual that documents the method.
 3. [ ] [Task:](3-RelativeError.md)
  Implement a method that returns the absolute error in the approximation of one vector by another when the ∞
