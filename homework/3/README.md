@@ -7,7 +7,7 @@
 3. [ ] [Task:](3-infnormabserr.md)
  Implement a method that returns the absolute error in the approximation of one vector by another when the ∞
 -norm is used. Add an entry to your software manual that documents the method. 
-4. [ ] [Task:](4-1matrirxnorm.md)
+4. [ ] [Task:](4-1matrixnorm.md)
  Implement a method that returns the 1-matrix norm of a given square matrix. Add an entry to your software manual that documents the method. 
 5. [ ] [Task:](5-ScalarVectorMultiplication.md)
  Implement a method that returns the ∞-norm of a given square matrix. Add an entry to your software manual that documents the method.
