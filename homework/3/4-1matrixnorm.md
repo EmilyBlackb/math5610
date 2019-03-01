@@ -1,3 +1,3 @@
-Created a function in C++ to add two vectors together. The vectors are defined as a 1 by n or n by 1 matrix using matrix struct:
+Created a function in C++ that returns the 1-matrix norm of a given square matrix:
 
-[Vector Addition Software Page](https://emilyblackb.github.io/math5610/Software_Manual/VectorAddition)
+[Matrix 1-Norm Software Page](https://emilyblackb.github.io/math5610/Software_Manual/1-Normm)
