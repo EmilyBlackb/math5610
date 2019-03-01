@@ -1,3 +1,3 @@
-Emailed link to Github pages to Professor Koebbe:
+Created a code that returns the absolute error in the approximation of one vector by another when the 2-norm is used
 
-<https://emilyblackb.github.io/math5610/>
+[2-Norm Absolute Error Software Page](https://emilyblackb.github.io/math5610/)
