@@ -3,5 +3,7 @@
 
 References:
 
-<https://nptel.ac.in/courses/122104019/numerical-analysis/kadalbajoo/lec1/fnode3.html>
-<http://www.m-hikari.com/ija/ija-password-2009/ija-password5-8-2009/drakakisIJA5-8-2009.pdf>
+<http://mathworld.wolfram.com/FrobeniusNorm.html>
+<https://ipfs.io/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Matrix_norm.html>
+<https://en.wikipedia.org/wiki/Matrix_norm#Consistent_norms>
+<https://www.uio.no/studier/emner/matnat/ifi/nedlagte-emner/INF-MAT3350/h07/undervisningsmateriale/chap13slides.pdf>
