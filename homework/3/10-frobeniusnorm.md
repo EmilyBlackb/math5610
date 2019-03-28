@@ -1,6 +1,4 @@
-Search the internet for sites that discuss matrix norms. Look for sites that explain induced matrix norms. 
-Write a brief summary of what you find. Limit the discussion to no more than two or three paragraphs.
-include links to the sites you cite.
+ Task: Search the internet for sites that define and discuss the Frobenius matrix norm. Also, look for sites that define consistent matrix norms. Summarize in a paragraph or two what you found and as usual cite the sites. 
 
 
 References:
