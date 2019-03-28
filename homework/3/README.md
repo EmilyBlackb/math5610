@@ -19,5 +19,5 @@
  Implement a method that returns the product of two matrices with an equal inner dimension. Add an entry to your software manual that documents the method.
 9. [x] [Task:](9-diagdom.md)
  Write a routine that will generate a diagonally dominant matrix that has real values in all entries of the matrix. Add an entry to your for the method you create.
-10. [ ] [Task:](10-MatrixNormDiscussion.md)
+10. [ ] [Task:](10-frobeniusnorm.md)
  Search the internet for sites that define and discuss the Frobenius matrix norm. Also, look for sites that define consistent matrix norms. Summarize in a paragraph or two what you found and as usual cite the sites.
