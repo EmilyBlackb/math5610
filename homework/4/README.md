@@ -18,5 +18,5 @@
  Using previous methods you have created, write a code that will solve a square linear system of equations using Gaussian elimination (elementary row operations) to reduce the augmented coefficient matrix to row echelon form and then apply backsubstitution to determine an approximate solution for the linear system. 
 9. [ ] [Task:](9-symdiagdom.md)
  Write a routine that will generate a symmetric diagonally dominant matrix that has real values in all entries of the matrix.
-10. [ ] [Task:](10-frobeniusnorm.md)
+10. [ ] [Task:](10-parallelalgorithms.md)
  Search the internet for sites that discuss parallel algorithms for matrix-vector multiplication and matrix-matrix multiplication. Summarize in a paragraph or two and as always, cite your sites. 
