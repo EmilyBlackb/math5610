@@ -1,23 +1,22 @@
 ### Homework 3 Tasks:
 
-1. [x] [Task:](1-2normabserr.md)
- Implement a method that returns the absolute error in the approximation of one vector by another when the 2-norm is used. Make sure to add an entry to your software manual to document the work.
-2. [x] [Task:](2-1normabserr.md)
- Implement a method that returns the absolute error in the approximation of one vector by another when the 1-norm is used. Add an entry to your software manual that documents the method.
-3. [x] [Task:](3-infnormabserr.md)
- Implement a method that returns the absolute error in the approximation of one vector by another when the ∞
--norm is used. Add an entry to your software manual that documents the method. 
-4. [x] [Task:](4-1matrixnorm.md)
- Implement a method that returns the 1-matrix norm of a given square matrix. Add an entry to your software manual that documents the method. 
-5. [x] [Task:](5-infmatrixnorm.md)
- Implement a method that returns the ∞-norm of a given square matrix. Add an entry to your software manual that documents the method.
-6. [x] [Task:](6-dotproduct.md)
- Implement a method that returns the dot produce of two vectors of the same length. Add an entry to your software manual that documents the method.
-7. [x] [Task:](7-crossproduct.md)
- Implement a method that returns the cross-product of two vectors of length three. Add an entry to your software manual that documents the method.
-8. [x] [Task:](8-matrixmultiplication.md)
- Implement a method that returns the product of two matrices with an equal inner dimension. Add an entry to your software manual that documents the method.
-9. [x] [Task:](9-diagdom.md)
- Write a routine that will generate a diagonally dominant matrix that has real values in all entries of the matrix. Add an entry to your for the method you create.
+1. [ ] [Task:](1-scalarmult.md)
+ Implement a method that returns the scalar multiple of a given matrix. 
+2. [ ] [Task:](2-1normabserr.md)
+  Implement a method that returns the sum of two matrices of the same size. 
+3. [ ] [Task:](3-infnormabserr.md)
+ Implement a method that will return the outer product of two vectors. 
+4. [ ] [Task:](4-1matrixnorm.md)
+  Implement a method that will compute the solution of a square linear system of equations where the coefficient matrix is a diagonal matrix.  
+5. [ ] [Task:](5-infmatrixnorm.md)
+  Implement a method that will compute the solution of a square linear system of equations where the coefficient matrix is upper triangular.
+6. [ ] [Task:](6-dotproduct.md)
+  Implement a method that will compute the solution of a square linear system of equations where the coefficient matrix is lower triangular.
+7. [ ] [Task:](7-crossproduct.md)
+  Implement a method that will perform elementary row operations on a matrix to take the matrix to row echelon form. The resulting matrix should be upper triangular through the rows. If the matrix is not a square matrix, define an appropriate output for the method tha will return the row echelon form.
+8. [ ] [Task:](8-matrixmultiplication.md)
+ Using previous methods you have created, write a code that will solve a square linear system of equations using Gaussian elimination (elementary row operations) to reduce the augmented coefficient matrix to row echelon form and then apply backsubstitution to determine an approximate solution for the linear system. 
+9. [ ] [Task:](9-diagdom.md)
+ Write a routine that will generate a symmetric diagonally dominant matrix that has real values in all entries of the matrix.
 10. [ ] [Task:](10-frobeniusnorm.md)
- Search the internet for sites that define and discuss the Frobenius matrix norm. Also, look for sites that define consistent matrix norms. Summarize in a paragraph or two what you found and as usual cite the sites.
+ Search the internet for sites that discuss parallel algorithms for matrix-vector multiplication and matrix-matrix multiplication. Summarize in a paragraph or two and as always, cite your sites. 
