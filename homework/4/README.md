@@ -2,9 +2,9 @@
 
 1. [ ] [Task:](1-scalarmult.md)
  Implement a method that returns the scalar multiple of a given matrix. 
-2. [ ] [Task:](2-1normabserr.md)
+2. [ ] [Task:](2-matrixsum.md)
   Implement a method that returns the sum of two matrices of the same size. 
-3. [ ] [Task:](3-infnormabserr.md)
+3. [ ] [Task:](3-outerproductv.md)
  Implement a method that will return the outer product of two vectors. 
 4. [ ] [Task:](4-1matrixnorm.md)
   Implement a method that will compute the solution of a square linear system of equations where the coefficient matrix is a diagonal matrix.  
