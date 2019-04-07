@@ -1,6 +1,6 @@
 
-Created a code that returns the absolute error in the approximation of one vector by another when the 1-norm is used:
+Created a code that returns the sum of two matrices of the same size:
 
-[1-Norm Absolute Error Software Page](https://emilyblackb.github.io/math5610/Software_Manual/1-Normabserr)
+[Matrix Sum Software Page](https://emilyblackb.github.io/math5610/Software_Manual/msum)
 
       
