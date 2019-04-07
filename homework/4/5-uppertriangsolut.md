@@ -1,3 +1,3 @@
-Created a function in C++ that returns the ∞-norm of a given square matrix:
+Created a function in C++ that will compute the solution of a square linear system of equations where the coefficient matrix is upper triangular:
 
-[Matrix Infinity Matrix Software Page](https://emilyblackb.github.io/math5610/Software_Manual/inf-Normm)
+[Square Linear System with Upper Triangular Coefficent Matrix Solver Software Page](https://emilyblackb.github.io/math5610/Software_Manual/upbacksolut)
