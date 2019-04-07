@@ -1,4 +1,4 @@
-# Absolute Error of two vectors in the 1-Norm
+# Solver: Square Linear System with Diagonal Coefficient Matrix
 
 **Routine Name:**           onenormabsv
 
