@@ -1,4 +1,4 @@
-Created a routine that returns the cross-product of two vectors of length three: 
+Created a routine that performs elementary row operations on a matrix to take the matrix to row echelon form.: 
 
-[Vector Cross Product Software Page](https://emilyblackb.github.io/math5610/Software_Manual/crossv)
+[Row Echelon Form Software Page](https://emilyblackb.github.io/math5610/Software_Manual/rowechelon)
       
