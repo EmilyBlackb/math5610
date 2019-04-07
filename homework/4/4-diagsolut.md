@@ -1,3 +1,3 @@
-Created a function in C++ that returns the 1-matrix norm of a given square matrix:
+Created a function in C++ that computes the solution of a square linear system of equations where the coefficient matrix is a diagonal matrix:
 
-[Matrix 1-Norm Software Page](https://emilyblackb.github.io/math5610/Software_Manual/1-Normm)
+[Square Linear System with Diagonal Coefficient Matrix Solver Software Page](https://emilyblackb.github.io/math5610/Software_Manual/diagsolut)
