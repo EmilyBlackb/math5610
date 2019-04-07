@@ -1,5 +1,3 @@
-Created a routine that returns the dot produce of two vectors of the same length:
+Created a function in C++ that will compute the solution of a square linear system of equations where the coefficient matrix is lower triangular:
 
-[Vector Dot Product Software Page Link](https://emilyblackb.github.io/math5610/Software_Manual/dotv)
-
-      
+[Square Linear System with Lower Triangular Coefficent Matrix Solver Software Page](https://emilyblackb.github.io/math5610/Software_Manual/lowbacksolut)
