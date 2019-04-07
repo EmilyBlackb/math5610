@@ -1,4 +1,4 @@
-# Absolute Error of two vectors in the 1-Norm
+# Gaussian Elimination
 
 **Routine Name:**           onenormabsv
 
