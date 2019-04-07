@@ -32,3 +32,16 @@
 20. [Matrix-Matrix Multiplication](Matrixmult.md)
 21. [Diagonally Dominant Matrix Generator](diagdom.md)
 
+## Homework 4
+
+13. [Matrix Scalar Multiple](cmatrix.md)
+14. [Matrix Sum](msum.md)
+15. [Vector Outer Product](outproduct.md)
+16. [Solution of a Square System with Diagonal Coefficient Matrix](diagsolut.md)
+17. [Solution of a Square System with Upper Triangular Coefficient Matrix](upbacksolut.md)
+18. [Solution of a Square System with Lower Triangular Coefficient Matrix](lowbacksolut.md)
+19. [Row Echelon Form](rowechelon.md)
+20. [Solution of a Square System using Gaussian Elimination](GE.md)
+21. [Symmetric Diagonally Dominant Matrix Generator](symdiagdom.md)
+
+
