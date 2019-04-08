@@ -6,7 +6,7 @@
 
 **Language:** C++. The code can be compiled using the g++ compiler.
 
-**Description/Purpose:** This routine will 
+**Description/Purpose:** This routine will return the scalar multiple of a given matrix.
 
 **Input:** This routine takes a matrix and a scalar.
 
@@ -39,7 +39,7 @@ Output from the lines above:
       -9.75865e+09  1.77408e+10  3.53918e+09
       3.93431e+09  -7.10401e+09  1.9677e+10
 
-The above output the entries to the matrix z that has been multiplied by 5.
+The above output the entries to the matrix z that has been multiplied by the constant 5.
 
 **Implementation/Code:** The following is the code for cmatrix()
 
