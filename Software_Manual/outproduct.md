@@ -6,7 +6,7 @@
 
 **Language:** C++. The code can be compiled using the g++ compiler.
 
-**Description/Purpose:** This routine will 
+**Description/Purpose:** This routine will return the outer product of two vectors.
 
 **Input:** This routine takes two vectors: one vector and another vector approximating that vector.
 
