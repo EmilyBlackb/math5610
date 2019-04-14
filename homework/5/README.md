@@ -1,23 +1,32 @@
-### Homework 3 Tasks:
+### Homework 5 Tasks:
 
-1. [x] [Task:](1-2normabserr.md)
- Implement a method that returns the absolute error in the approximation of one vector by another when the 2-norm is used. Make sure to add an entry to your software manual to document the work.
-2. [x] [Task:](2-1normabserr.md)
- Implement a method that returns the absolute error in the approximation of one vector by another when the 1-norm is used. Add an entry to your software manual that documents the method.
-3. [x] [Task:](3-infnormabserr.md)
- Implement a method that returns the absolute error in the approximation of one vector by another when the ∞
--norm is used. Add an entry to your software manual that documents the method. 
-4. [x] [Task:](4-1matrixnorm.md)
- Implement a method that returns the 1-matrix norm of a given square matrix. Add an entry to your software manual that documents the method. 
-5. [x] [Task:](5-infmatrixnorm.md)
- Implement a method that returns the ∞-norm of a given square matrix. Add an entry to your software manual that documents the method.
-6. [x] [Task:](6-dotproduct.md)
- Implement a method that returns the dot produce of two vectors of the same length. Add an entry to your software manual that documents the method.
-7. [x] [Task:](7-crossproduct.md)
- Implement a method that returns the cross-product of two vectors of length three. Add an entry to your software manual that documents the method.
-8. [x] [Task:](8-matrixmultiplication.md)
- Implement a method that returns the product of two matrices with an equal inner dimension. Add an entry to your software manual that documents the method.
-9. [x] [Task:](9-diagdom.md)
- Write a routine that will generate a diagonally dominant matrix that has real values in all entries of the matrix. Add an entry to your for the method you create.
+1. [ ] [Task:](1-2normabserr.md)
+ Task: Implement a method that will return the approximate solution of a square linear system of equations where previous methods are not used. That is, inline the row reduction operations and the backsubstitution methods. Test the speed of the code you generated in this problem and the code that references your previous methods. Try this for increasing sizes of the linear system. You will likely need to use large systems of linear equations - possibly 10,000 by 10,000 to see any kind of time. Use cpu_timing methods in the language you have chosen to do your coding. Report any differences you see in the time it takes to solve the linear systems in the two approaches.
+ 
+2. [ ] [Task:](2-1normabserr.md)
+ Implement a method that returns the LU-factorization of a square matrix. You can actually modify the Gaussian elimination code in two lines to come up with the new method.
+ 
+3. [ ] [Task:](3-infnormabserr.md)
+ Use the LU factorization method you created in the previous step, along with the forward substitution method (for lower triangular square systems) and the back substitution method (for upper triangular square systems) to create a method that will solve a square linear system of equations
+ 
+4. [ ] [Task:](4-1matrixnorm.md)
+ Write a code that will generate a symmetric, positive definite matrix for a given integer, n. Make sure that you add an entry to your software manual with a couple of examples. Your examples should be relatively small for your examples, but you should include a large example in the task solution write-up.
+ 
+ 
+5. [ ] [Task:](5-infmatrixnorm.md)
+ Implement the Cholesky factorization method for square matrices. Do not include any pivoting in the algorithm. Document the algorithm in your software manual. Test the code on at least 2 or 3 matrices of different sizes. At least one example should involve a matrix that is bigger than 100 × 100 in size. Use output from the method you created in the previous task.
+ 
+6. [ ] [Task:](6-dotproduct.md)
+ Write a routine/method that will return an approximate solution of the least squares problem using the normal equation approach. Create an entry in your software manual for the method. Also, make sure you use the Cholesky algorithm that you created in a previous task.
+ 
+7. [ ] [Task:](7-crossproduct.md)
+ Implement the QR factorization of a square matrix. Use the Gram-Schmidt process to create the orthogonal vectors for the orthogonal matrix. Document the method in your software manual. Include examples showing the orthogonal matrix and the other factor which should be upper triangular.
+
+8. [ ] [Task:](8-matrixmultiplication.md)
+Try out your QR-factorization method from the previous task on the Hilbert matrices of sizes: n = 4,6,8,10. Test to see if the orthogonal matrix is realy orthogonal by multiplying Q-tramspose * Q and comparing the resulting identity matrix. Explain the results you obtained.
+
+9. [ ] [Task:](9-diagdom.md)
+ Implement a method that will return a square diagonally dominant matrix. Document this method in your software manual.
+ 
 10. [ ] [Task:](10-frobeniusnorm.md)
- Search the internet for sites that define and discuss the Frobenius matrix norm. Also, look for sites that define consistent matrix norms. Summarize in a paragraph or two what you found and as usual cite the sites.
+ Search the internet for sites that discuss the use of direct methods for the approximate solution of linear systems of systems of equations. Note that direct methods include factorization methods and the standard Gaussian eliimination with back substitution. Find at least a couple of sites where limitations of direct methods are discussed. As usual, cite your sites.
