@@ -1,4 +1,4 @@
-### Homework 3 Tasks:
+### Homework 4 Tasks:
 
 1. [x] [Task:](1-scalarmult.md)
  Implement a method that returns the scalar multiple of a given matrix. 
