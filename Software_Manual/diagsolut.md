@@ -32,6 +32,10 @@ The output are the entries for x vector we are trying to solve of the form Ax = 
 
 **Implementation/Code:** The following is the code for diagsolut()
 
+    //Square linear solver with diagonal matrix coefficient
+    //Since the inverse of a diagonal matrix is the reciperical of each non-zero diagonal entries.
+    //The solution will be A^-1 * B.
+
     #include "matrixstruct.hpp"
     #include "matrixmult.cpp"
     
@@ -74,5 +78,8 @@ The output are the entries for x vector we are trying to solve of the form Ax = 
     }
 
     #endif
+
+//references: https://stattrek.com/matrix-algebra/find-matrix-inverse.aspx
+//references: https://www.khanacademy.org/math/precalculus/precalc-matrices/solving-equations-with-inverse-matrices/v/solving-matrix-equation
 
 **Last Modified:** April/2019
