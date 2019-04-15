@@ -6,7 +6,7 @@
   Implement a method that returns the sum of two matrices of the same size. 
 3. [x] [Task:](3-outerproductv.md)
  Implement a method that will return the outer product of two vectors. 
-4. [ ] [Task:](4-diagsolut.md)
+4. [x] [Task:](4-diagsolut.md)
   Implement a method that will compute the solution of a square linear system of equations where the coefficient matrix is a diagonal matrix.  
 5. [ ] [Task:](5-uppertriangsolut.md)
   Implement a method that will compute the solution of a square linear system of equations where the coefficient matrix is upper triangular.
