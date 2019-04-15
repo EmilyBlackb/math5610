@@ -1,4 +1,4 @@
- Task: Search the internet for sites that define and discuss the Frobenius matrix norm. Also, look for sites that define consistent matrix norms. Summarize in a paragraph or two what you found and as usual cite the sites. 
+ Task: Search the internet for sites that discuss parallel algorithms for matrix-vector multiplication and matrix-matrix multiplication. Summarize in a paragraph or two and as always, cite your sites.
 
 
 References:
