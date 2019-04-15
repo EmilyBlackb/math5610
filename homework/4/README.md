@@ -8,9 +8,9 @@
  Implement a method that will return the outer product of two vectors. 
 4. [x] [Task:](4-diagsolut.md)
   Implement a method that will compute the solution of a square linear system of equations where the coefficient matrix is a diagonal matrix.  
-5. [ ] [Task:](5-uppertriangsolut.md)
+5. [x] [Task:](5-uppertriangsolut.md)
   Implement a method that will compute the solution of a square linear system of equations where the coefficient matrix is upper triangular.
-6. [ ] [Task:](6-lowertriangsolut.md)
+6. [x] [Task:](6-lowertriangsolut.md)
   Implement a method that will compute the solution of a square linear system of equations where the coefficient matrix is lower triangular.
 7. [ ] [Task:](7-rowechelonform.md)
   Implement a method that will perform elementary row operations on a matrix to take the matrix to row echelon form. The resulting matrix should be upper triangular through the rows. If the matrix is not a square matrix, define an appropriate output for the method tha will return the row echelon form.
