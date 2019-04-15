@@ -45,6 +45,7 @@
 21. [Symmetric Diagonally Dominant Matrix Generator](symdiagdom.md)
 
   ### Supplimental Code
-   17.a [Upper and Lower Triangular Coefficient Matricies Maker](ULtriag.md)  
+   17.a and 18.a [Upper and Lower Triangular Coefficient Matricies Maker](ULtriag.md)  
+   19.a [Matrix/Vector Transpose](transpose.md)  
 
 
