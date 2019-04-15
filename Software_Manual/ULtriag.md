@@ -38,7 +38,7 @@ See Software Page for Solving a square linear system of equations where the coef
 
     #endif
 
-**Implementation/Code:** The following is the code for UpperT() 
+**Implementation/Code:** The following is the code for lowerT() 
 
     #include "matrixstruct.hpp"
     #include "ranmatrix.cpp"
