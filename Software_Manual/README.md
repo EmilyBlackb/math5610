@@ -38,12 +38,13 @@
 14. [Matrix Sum](msum.md)
 15. [Vector Outer Product](outproduct.md)
 16. [Solution of a Square System with Diagonal Coefficient Matrix](diagsolut.md)
-  ### Supplimental Code
-   17.a [Upper and Lower Triangular Coefficient Matricies Maker](ULtriag.md)
 17. [Solution of a Square System with Upper Triangular Coefficient Matrix](upbacksolut.md)
 18. [Solution of a Square System with Lower Triangular Coefficient Matrix](lowbacksolut.md)
 19. [Row Echelon Form](rowechelon.md)
 20. [Solution of a Square System using Gaussian Elimination](GE.md)
 21. [Symmetric Diagonally Dominant Matrix Generator](symdiagdom.md)
+
+  ### Supplimental Code
+   17.a [Upper and Lower Triangular Coefficient Matricies Maker](ULtriag.md)  
 
 
