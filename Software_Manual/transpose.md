@@ -45,13 +45,14 @@ First block of output is A and the second block of output is A transposed.
     #ifndef transpose_H
     #define transpose_H
 
-    void t(Matrix &A){
+    Matrix t(Matrix A){
       Matrix T(A.columns, A.rows);
       for (int i = 0; i < A.rows; i++){
         for (int j = 0; j < A.columns; j++){
             T.matrix[j][i] = A.matrix[i][j] ;
         }
       }
+      return T;
     }
 
     #endif
