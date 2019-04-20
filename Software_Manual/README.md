@@ -34,18 +34,31 @@
 
 ## Homework 4
 
-13. [Matrix Scalar Multiple](cmatrix.md)
-14. [Matrix Sum](msum.md)
-15. [Vector Outer Product](outproduct.md)
-16. [Solution of a Square System with Diagonal Coefficient Matrix](diagsolut.md)
-17. [Solution of a Square System with Upper Triangular Coefficient Matrix](upbacksolut.md)
-18. [Solution of a Square System with Lower Triangular Coefficient Matrix](lowbacksolut.md)
-19. [Row Echelon Form](rowechelon.md)
-20. [Solution of a Square System using Gaussian Elimination](GE.md)
-21. [Symmetric Diagonally Dominant Matrix Generator](symdiagdom.md)
+22. [Matrix Scalar Multiple](cmatrix.md)
+23. [Matrix Sum](msum.md)
+24. [Vector Outer Product](outproduct.md)
+25. [Solution of a Square System with Diagonal Coefficient Matrix](diagsolut.md)
+26. [Solution of a Square System with Upper Triangular Coefficient Matrix](upbacksolut.md)
+27. [Solution of a Square System with Lower Triangular Coefficient Matrix](lowbacksolut.md)
+28. [Row Echelon Form](rowechelon.md)
+29. [Solution of a Square System using Gaussian Elimination](GE.md)
+30. [Symmetric Diagonally Dominant Matrix Generator](symdiagdom.md)
+
+## Homework 5
+
+31. [inline Method for Solution of a Square System](othersolut.md)
+32. [LU Factorization](LU.md)
+33. [LU solver](LUsolut.md)
+34. [Symmetric positive definite matrix maker](spd.md)
+35. [Cholesky factorization method](cholesky.md)
+36. [least squares problem (normal equation approach)](ls.md)
+37. [QR factorization](QR.md)
+38. [square diagonally dominant matrix maker](diagdom.md)
+
+## Homework 6
 
   ### Supplimental Code
-   17.a and 18.a [Upper and Lower Triangular Coefficient Matricies Maker](ULtriag.md)  
-   19.a [Matrix/Vector Transpose](transpose.md)  
+   26.a and 27.a [Upper and Lower Triangular Coefficient Matricies Maker](ULtriag.md)  
+   28.a [Matrix/Vector Transpose](transpose.md)  
 
 
