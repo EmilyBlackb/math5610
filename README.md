@@ -9,6 +9,9 @@ Math 5610 Fundamentals of Computational Mathematics Homework
 3. [ ] [Homework 3](homework/3)
 4. [ ] [Homework 4](homework/4)
 5. [ ] [Homework 5](homework/5)
+5. [ ] [Homework 6](homework/6)
+5. [ ] [Homework 7](homework/7)
+5. [ ] [Homework 8](homework/8)
 
 ### Software Manual:
 
