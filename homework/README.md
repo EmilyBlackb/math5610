@@ -4,7 +4,7 @@ Math 5610 Fundamentals of Computational Mathematics Homework
 
 ### Homework:
 
-1. [x] [Homework 1](https://EmilyBlackb.github.io/math5610/homework/1) 
+1. [x] [Homework 1](homework/1)
 
 2. [ ]  [Homework 2](https://EmilyBlackb.github.io/math5610/homework/2)
 
