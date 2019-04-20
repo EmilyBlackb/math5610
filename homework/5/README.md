@@ -1,6 +1,6 @@
 ### Homework 5 Tasks:
 
-1. [ ] [Task:](1-2normabserr.md)
+1. [ ] [Task:](1-othersolut.md)
  Task: Implement a method that will return the approximate solution of a square linear system of equations where previous methods are not used. That is, inline the row reduction operations and the backsubstitution methods. Test the speed of the code you generated in this problem and the code that references your previous methods. Try this for increasing sizes of the linear system. You will likely need to use large systems of linear equations - possibly 10,000 by 10,000 to see any kind of time. Use cpu_timing methods in the language you have chosen to do your coding. Report any differences you see in the time it takes to solve the linear systems in the two approaches.
  
 2. [ ] [Task:](2-1normabserr.md)
